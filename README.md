@@ -12,9 +12,14 @@ This repository contains a production-grade automated pipeline designed to proce
 - **Automated Validation**: Integrated unit testing to enforce strict structural data requirements.
 
 ## How to Execute
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run the processing and verification architecture: `python main.py`
-3. Run logical framework verification checks: `pytest`
+```
+# 1. Install dependencies:
+pip install -r requirements.txt
+# 2. Run the processing and verification architecture:
+python main.py
+# 3. Run logical framework verification checks:
+pytest
+```
 
 ```
 computational-engineering-pipeline/
