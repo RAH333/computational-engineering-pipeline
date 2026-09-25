@@ -12,7 +12,7 @@ def run_pipeline():
         
     raw_data_path = 'data/raw_simulation_data.csv'
     mock_data = pd.DataFrame({
-        'trial_id':,
+        'trial_id':[1, 2, 3, 4],
         'force_n': [10000, 15000, -5000, 20000],  # Trial 3 has anomalous force
         'area_m2': [0.05, 0.05, 0.05, 0.0001],   # Trial 4 will cause extreme stress
         'pressure_psi': [120, 145, -10, 130],     # Trial 3 has negative pressure
